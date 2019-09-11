@@ -1,0 +1,112 @@
+.THIS.c-container {
+    border: 1px solid #d8dde6;
+    margin: 10px 0 20px 0;
+}
+
+.THIS .custom-square-gray
+{
+    width: 90%; 
+    height: 100%; 
+    color: #000000;
+    padding: 1rem;
+    font-style: italic; 
+     -webkit-transform: skew(1deg);
+     -moz-transform: skew(1deg);
+     -ms-transform: skew(1deg);
+     -o-transform: skew(1deg);
+    background: #f2f2f2;  
+    margin: 3vw 1vw;  
+}
+.THIS .custom-box-white {
+    text-align: center;
+    background-color: #FFFFFF;
+    padding: 1rem;
+    border: 1px solid #d8dde6;
+    color: #000000;  
+    font-size: 110%;
+    text-transform: uppercase;
+    letter-spacing: 2px;    
+    font-weight: bold;    
+    text-align: center;    
+    text-shadow: 2px 1px 4px rgba(19, 19, 19, 0.52);    
+    font-style: italic;    
+    margin: 3vw 1vw;    
+    font-family: 'Tangerine', cursive;
+     border: 3px solid #555;      
+     -webkit-transform: skew(-20deg);
+     -moz-transform: skew(-20deg);
+     -ms-transform: skew(-20deg);
+     -o-transform: skew(-20deg);
+     transform: skew(-20deg);
+}
+
+.THIS .custom-box {
+    text-align: center;
+    background-color: #990000;
+    padding: 1rem;
+    border: 1px solid #d8dde6;
+    transform: rotate(0.8 deg);
+    color: #fff; 
+    text-transform: uppercase;
+    font-size: 150%;
+    letter-spacing: 2px;    
+    font-weight: bold;    
+    text-align: center;    
+    text-shadow: 2px 1px 4px rgba(19, 19, 19, 0.52);    
+    font-style: italic;    
+    margin: 3vw 1vw;    
+    font-family: 'Tangerine', cursive;
+     border: 3px solid #555;      
+     -webkit-transform: skew(-20deg);
+     -moz-transform: skew(-20deg);
+     -ms-transform: skew(-20deg);
+     -o-transform: skew(-20deg);
+     transform: skew(-20deg);
+}
+
+
+.THIS .custom-box-black {
+    text-align: center;
+    background-color: black;    
+    border: 1px solid #d8dde6;
+    transform: rotate(0.8 deg);
+    text-transform: uppercase;
+    color: #fff;    
+    letter-spacing: 2px;    
+    font-weight: bold;
+     font-size: 140%;
+    text-shadow: 2px 1px 4px rgba(19, 19, 19, 0.52);    
+    font-style: italic;    
+    margin: 3vw 1vw;    
+            
+    border: 3px solid #555;      
+     -webkit-transform: skew(-20deg);
+     -moz-transform: skew(-20deg);
+     -ms-transform: skew(-20deg);
+     -o-transform: skew(-20deg);
+     transform: skew(-20deg);
+}
+
+.THIS.div {
+  width: 80px;
+  height: 80px;
+  background-color: skyblue;
+}
+
+.THIS.rotated {
+  transform: rotate(45deg); /* Equal to rotateZ(45deg) */
+  background-color: pink;
+}
+.THIS .custom-black-letter{
+    text-align: left;
+    color: 000000; 
+    font-weight: bold;   
+    text-shadow: 2px 1px 4px rgba(19, 19, 19, 0.52);    
+    font-style: italic; 
+}
+.THIS .custom-letter{
+    text-align: left;
+    color: green;      
+    text-shadow: 2px 1px 4px rgba(19, 19, 19, 0.52);    
+    font-style: italic; 
+}

@@ -1,0 +1,44 @@
+<aura:component implements="flexipage:availableForAllPageTypes,force:hasRecordId,force:appHostable" access="global">
+    1
+    <lightning:recordViewForm recordId="0011t00000SaD3bAAF" objectApiName="Account">
+        <div class="slds-box">
+            <lightning:outputField fieldName="Name" />
+            <lightning:outputField fieldName="Phone" />
+        </div>        
+    </lightning:recordViewForm>  
+    2
+    <lightning:recordViewForm recordId="0011t00000SaD3bAAF" objectApiName="Account">
+        <div class="slds-grid">
+            <div class="slds-col slds-size_1-of-2">
+                <!-- Your lightning:outputField components here -->
+                 <lightning:outputField fieldName="Name" />
+            	<lightning:outputField fieldName="Phone" />
+            </div>
+            <div class="slds-col slds-size_1-of-2">
+                <!-- More lightning:outputField components here -->
+                 <lightning:outputField fieldName="Name" />
+            	 <lightning:outputField fieldName="Phone" />
+            </div>
+        </div>
+	</lightning:recordViewForm>
+    3
+    <lightning:recordEditForm aura:id="recordViewForm"
+                                  recordId="0011t00000SaD3bAAF"
+                                  recordTypeId="0121t0000001nJ4AAI"
+                                  objectApiName="Account">
+        <lightning:messages />
+        <!--Other fields here-->
+        <lightning:inputField fieldName="Name" />
+        <lightning:inputField fieldName="Phone" />
+        <lightning:button aura:id="submit" type="submit" label="Update record" class="slds-m-top_medium"/>
+	</lightning:recordEditForm>
+    4
+    <aura:attribute name="fields" type="String[]" default="['Name','AnnualRevenue','Industry']" />
+    <lightning:recordForm
+        recordId="{!v.recordId}"
+        objectApiName="Account"
+        layoutType="Compact"
+        fields="{!v.fields}"
+        columns="2"                 
+        mode="edit" />
+</aura:component>

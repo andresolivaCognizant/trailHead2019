@@ -1,0 +1,416 @@
+<aura:component implements="flexipage:availableForAllPageTypes,force:hasRecordId,force:appHostable" access="global">
+    
+ 
+    <lightning:card variant="Narrow" title="Cotización" iconName="standard:account" footer="Card Footer">
+        <aura:set attribute="actions">
+            <lightning:buttonIcon iconName="utility:down" variant="border-filled" alternativeText="Show More"/>
+        </aura:set>
+        <div class="slds-grid slds-wrap">
+          <div class="slds-col slds-size_1-of-1 slds-large-size_1-of-12">
+            <span></span>
+          </div>
+          <div class="slds-col slds-size_1-of-1 slds-large-size_3-of-12">
+            <div class="custom-box" >Cotización</div>
+          </div>
+          <div class="slds-col slds-size_1-of-1 slds-large-size_3-of-12">
+            <div class="custom-box-white">Fecha: 15-Mayo-2019-</div>
+          </div>
+          <div class="slds-col slds-size_1-of-1 slds-large-size_3-of-12">
+            <div class="custom-box-white">Cot numero: 00912982189</div>
+          </div>
+          <div class="slds-col slds-size_1-of-1 slds-large-size_2-of-12">
+            <div class="logoContainer">
+                <img src="{!$Resource.FNL_logo}"/>
+            </div>
+          </div>
+        </div>
+        <div class="slds-grid slds-wrap">
+          <div class="slds-col slds-size_1-of-1 slds-large-size_1-of-12">
+            <span></span>
+          </div>
+          <div class="slds-col slds-size_1-of-1 slds-large-size_1-of-12">
+            <div class="custom-black-letter">Estimado:</div>
+          </div>
+            <div class="slds-col slds-size_1-of-1 slds-large-size_2-of-12">
+            <div class="custom-letter">Saul Ojeda Mosquera</div>
+          </div>
+            <div class="slds-col slds-size_1-of-1 slds-large-size_8-of-12">
+            <span></span>
+          </div>
+        </div>
+        <div class="slds-grid slds-wrap">
+          <div class="slds-col slds-size_1-of-1 slds-large-size_1-of-12">
+            <span></span>
+          </div>
+          <div class="slds-col slds-size_1-of-1 slds-large-size_9-of-12">
+            <div class="custom-letter">Agradecemos tu confianza e interes en ser parte de nuestra gran familia Honda, donde podras disfutar de beneficios y contar con el respaldo de .................. asds  f</div>
+          </div>
+            <div class="slds-col slds-size_1-of-1 slds-large-size_2-of-12">
+            <span></span>
+          </div>
+        </div>
+        
+        <div class="slds-grid slds-wrap">
+          <div class="slds-col slds-size_1-of-1 slds-large-size_1-of-12">
+            <span></span>
+          </div>
+          <div class="slds-col slds-size_1-of-1 slds-large-size_4-of-12">
+            <div class="custom-box-black">Datos del cliente</div>
+          </div>
+            <div class="slds-col slds-size_1-of-1 slds-large-size_1-of-12">
+            <span></span>
+          </div>
+            <div class="slds-col slds-size_1-of-1 slds-large-size_5-of-12">
+            <div class="custom-box-black">Información asesor</div>
+          </div>
+            <div class="slds-col slds-size_1-of-1 slds-large-size_1-of-12">
+            <span></span>
+          </div>
+        </div>
+        
+        <div class="slds-grid slds-wrap">
+          <div class="slds-col slds-size_1-of-1 slds-large-size_1-of-12">
+            <span></span>
+          </div>
+          <div class="slds-col slds-size_1-of-1 slds-large-size_2-of-12">
+            <div class="custom-black-letter">CC:</div>
+          </div>
+            <div class="slds-col slds-size_1-of-1 slds-large-size_3-of-12">
+            <div class="custom-letter">1671234323</div>
+          </div>
+            <div class="slds-col slds-size_1-of-1 slds-large-size_2-of-12">
+            <div class="custom-black-letter" >Nombre</div>
+          </div>
+            <div class="slds-col slds-size_1-of-1 slds-large-size_4-of-12">
+            <div class="custom-letter">Saul Ojeda Mosquera</div>
+          </div>
+        </div>
+        
+       <div class="slds-grid slds-wrap">
+          <div class="slds-col slds-size_1-of-1 slds-large-size_1-of-12">
+            <span></span>
+          </div>
+          <div class="slds-col slds-size_1-of-1 slds-large-size_2-of-12">
+            <div class="custom-black-letter" >Teléfono</div>
+          </div>
+            <div class="slds-col slds-size_1-of-1 slds-large-size_3-of-12">
+            <div class="custom-letter">314878786</div>
+          </div>
+            <div class="slds-col slds-size_1-of-1 slds-large-size_2-of-12">
+            <div class="custom-black-letter" >Teléfono fijo/Celular</div>
+          </div>
+            <div class="slds-col slds-size_1-of-1 slds-large-size_4-of-12">
+            <div class="custom-letter">89745878</div>
+          </div>
+        </div>
+        
+        <div class="slds-grid slds-wrap">
+          <div class="slds-col slds-size_1-of-1 slds-large-size_1-of-12">
+            <span></span>
+          </div>
+          <div class="slds-col slds-size_1-of-1 slds-large-size_2-of-12">
+            <div class="custom-black-letter">otro Teléfono:</div>
+          </div>
+            <div class="slds-col slds-size_1-of-1 slds-large-size_3-of-12">
+            <div class="custom-letter">314878786</div>
+          </div>
+            <div class="slds-col slds-size_1-of-1 slds-large-size_2-of-12">
+            <div class="custom-black-letter" >Correo</div>
+          </div>
+            <div class="slds-col slds-size_1-of-1 slds-large-size_4-of-12">
+            <div class="custom-letter">test@email.com</div>
+          </div>
+        </div>
+        
+       <div class="slds-grid slds-wrap">
+          <div class="slds-col slds-size_1-of-1 slds-large-size_1-of-12">
+            <span></span>
+          </div>
+          <div class="slds-col slds-size_1-of-1 slds-large-size_2-of-12">
+            <div class="custom-black-letter" >Dirección </div>
+          </div>
+            <div class="slds-col slds-size_1-of-1 slds-large-size_3-of-12">
+            <div class="custom-letter">calle 348  no 342</div>
+          </div>
+            <div class="slds-col slds-size_1-of-1 slds-large-size_2-of-12">
+            <div class="custom-black-letter">Agencia</div>
+          </div>
+            <div class="slds-col slds-size_1-of-1 slds-large-size_4-of-12">
+            <div class="custom-letter">agencia test nombre</div>
+          </div>
+        </div>
+        
+		<div class="slds-grid slds-wrap">
+          <div class="slds-col slds-size_1-of-1 slds-large-size_1-of-12">
+            <span></span>
+          </div>
+          <div class="slds-col slds-size_1-of-1 slds-large-size_2-of-12">
+            <div class="custom-black-letter" >Email </div>
+          </div>
+            <div class="slds-col slds-size_1-of-1 slds-large-size_9-of-12">
+            <div class="custom-letter">calle 348  no 342</div>
+          </div>  
+        </div>
+        
+        <div class="slds-grid slds-wrap">
+          <div class="slds-col slds-size_1-of-1 slds-large-size_1-of-12">
+            <span></span>
+          </div>
+          <div class="slds-col slds-size_1-of-1 slds-large-size_6-of-12">
+              <div class="custom-box-black" >Vehículo a cotizar /opción 1 </div>
+          </div>
+            <div class="slds-col slds-size_1-of-1 slds-large-size_5-of-12">
+            	<span></span>
+          	</div>  
+        </div>
+        
+        <div class="slds-grid slds-wrap">
+          <div class="slds-col slds-size_1-of-1 slds-large-size_1-of-12">
+            <span></span>
+          </div>
+          <div class="slds-col slds-size_1-of-1 slds-large-size_3-of-12">
+             <div class="logoContainer">
+                <img src="{!$Resource.FNL_fireBlade}"/>
+             </div>
+             <div class="custom-black-letter">Precio del vehículo iva incluido:</div> 
+             <div class="custom-box-black">$26,590,000</div>
+          </div>
+          <div class="slds-col slds-size_1-of-1 slds-large-size_4-of-12">
+            <div class="logoContainer">
+                <img src="{!$Resource.FNL_moto}"/>
+            </div>
+          </div>
+          <div class="slds-col slds-size_1-of-1 slds-large-size_2-of-12">
+              <div >
+                  <div class="custom-black-letter" >Linea: </div>                  
+              </div> 
+              <div >
+                   <div class="custom-black-letter">Año modelo:</div> 
+                   
+              </div>
+              <div >
+                  <div class="custom-black-letter">Color opc. #1:</div>                   
+              </div>
+              <div >
+                  <div class="custom-black-letter">Color opc. #2:</div>                    
+              </div>
+              <div >
+                  <div class="custom-black-letter">Versión:</div>                    
+              </div>
+              <div >
+                  <div class="custom-black-letter">C.C.:</div>                  
+              </div>
+              <div >
+                  <div class="custom-black-letter">Caja:</div>                    
+              </div>
+ </div>
+ <div class="slds-col slds-size_1-of-1 slds-large-size_1-of-12">
+              <div >                  
+                  <div class="custom-letter">linea X </div>
+              </div> 
+              <div >                   
+                   <div class="custom-letter">2020</div>
+              </div>
+              <div >                  
+                   <div class="custom-letter">Azul</div>
+              </div>
+              <div >                  
+                   <div class="custom-letter">Rojo</div>
+              </div>
+              <div >                  
+                   <div class="custom-letter">Versión 1</div>
+              </div>
+              <div >               
+                   <div class="custom-letter">1000</div>
+              </div>
+              <div >                  
+                   <div class="custom-letter">AUT</div>
+               </div>
+     			<div class="logoContainer">
+                    <img src="{!$Resource.FNL_sr_frenoLogo}"/>
+                </div>
+ 		  </div>
+         </div>  
+        
+         <div class="slds-grid slds-wrap">
+          <div class="slds-col slds-size_1-of-1 slds-large-size_1-of-12">
+            <span></span>
+          </div>
+             <div class="slds-col slds-size_-of-1 slds-large-size_5-of-12">
+            <div class="custom-box-black">Plan de financiación</div>
+          </div>
+             <div class="slds-col slds-size_1-of-1 slds-large-size_6-of-12">
+            <span></span>
+          </div>
+        </div>
+        
+        <div class="slds-grid slds-wrap">
+          <div class="slds-col slds-size_1-of-1 slds-large-size_1-of-12">
+            <span></span>
+          </div>
+          <div class="slds-col slds-size_1-of-1 slds-large-size_5-of-12">
+            <div class="custom-black-letter">Simulación 1</div>
+          </div>
+          <div class="slds-col slds-size_1-of-1 slds-large-size_6-of-12">
+            <div class="custom-black-letter">Simulación 2</div>
+          </div>
+        </div>
+        <div class="slds-grid slds-wrap">
+          <div class="slds-col slds-size_1-of-1 slds-large-size_1-of-12">
+            <span></span>
+          </div>
+          <div class="slds-col slds-size_1-of-1 slds-large-size_2-of-12">
+            <div class="custom-black-letter">Financiera:</div>
+          </div>
+          <div class="slds-col slds-size_1-of-1 slds-large-size_3-of-12">
+            <div class="custom-letter">BBVA empleado</div>
+          </div>
+          <div class="slds-col slds-size_1-of-1 slds-large-size_2-of-12">
+            <div class="custom-black-letter">Financiera:</div>
+          </div>
+            <div class="slds-col slds-size_1-of-1 slds-large-size_4-of-12">
+            <div class="custom-letter">BBVA empleado 2</div>
+          </div>
+        </div>
+        
+         <div class="slds-grid slds-wrap">
+          <div class="slds-col slds-size_1-of-1 slds-large-size_1-of-12">
+            <span></span>
+          </div>
+          <div class="slds-col slds-size_1-of-1 slds-large-size_2-of-12">
+            <div class="custom-black-letter">Valor:</div>
+          </div>
+          <div class="slds-col slds-size_1-of-1 slds-large-size_3-of-12">
+            <div class="custom-letter">$27.830.000</div>
+          </div>
+          <div class="slds-col slds-size_1-of-1 slds-large-size_2-of-12">
+            <div class="custom-black-letter">Valor</div>
+          </div>
+            <div class="slds-col slds-size_1-of-1 slds-large-size_4-of-12">
+            <div class="custom-letter">$27.830.000</div>
+          </div>
+        </div>
+        
+        <div class="slds-grid slds-wrap">
+          <div class="slds-col slds-size_1-of-1 slds-large-size_1-of-12">
+            <span></span>
+          </div>
+          <div class="slds-col slds-size_1-of-1 slds-large-size_2-of-12">
+            <div class="custom-black-letter">Cuota inicial:</div>
+          </div>
+          <div class="slds-col slds-size_1-of-1 slds-large-size_3-of-12">
+            <div class="custom-letter">$1.830.000</div>
+          </div>
+          <div class="slds-col slds-size_1-of-1 slds-large-size_2-of-12">
+            <div class="custom-black-letter">Cuota inicial:</div>
+          </div>
+            <div class="slds-col slds-size_1-of-1 slds-large-size_4-of-12">
+            <div class="custom-letter">$1.830.000</div>
+          </div>
+        </div>
+        
+        <div class="slds-grid slds-wrap">
+          <div class="slds-col slds-size_1-of-1 slds-large-size_1-of-12">
+            <span></span>
+          </div>
+          <div class="slds-col slds-size_1-of-1 slds-large-size_2-of-12">
+            <div class="custom-black-letter">Saldo a financiar:</div>
+          </div>
+          <div class="slds-col slds-size_1-of-1 slds-large-size_3-of-12">
+            <div class="custom-letter">$27.830.000</div>
+          </div>
+          <div class="slds-col slds-size_1-of-1 slds-large-size_2-of-12">
+            <div class="custom-black-letter">Saldo a financiar:</div>
+          </div>
+            <div class="slds-col slds-size_1-of-1 slds-large-size_4-of-12">
+            <div class="custom-letter">$27.830.000</div>
+          </div>
+        </div>
+        
+        <div class="slds-grid slds-wrap">
+          <div class="slds-col slds-size_1-of-1 slds-large-size_1-of-12">
+            <span></span>
+          </div>
+          <div class="slds-col slds-size_1-of-1 slds-large-size_2-of-12">
+            <div class="custom-black-letter">Plazo:</div>
+          </div>
+          <div class="slds-col slds-size_1-of-1 slds-large-size_3-of-12">
+            <div class="custom-letter">36</div>
+          </div>
+          <div class="slds-col slds-size_1-of-1 slds-large-size_2-of-12">
+            <div class="custom-black-letter">plazo:</div>
+          </div>
+            <div class="slds-col slds-size_1-of-1 slds-large-size_4-of-12">
+            <div class="custom-letter">37</div>
+          </div>
+        </div>
+        
+        <div class="slds-grid slds-wrap">
+          <div class="slds-col slds-size_1-of-1 slds-large-size_1-of-12">
+            <span></span>
+          </div>
+          <div class="slds-col slds-size_1-of-1 slds-large-size_2-of-12">
+            <div class="custom-black-letter">Cuota mensual:</div>
+          </div>
+          <div class="slds-col slds-size_1-of-1 slds-large-size_3-of-12">
+            <div class="custom-letter">$980.000</div>
+          </div>
+          <div class="slds-col slds-size_1-of-1 slds-large-size_2-of-12">
+            <div class="custom-black-letter">Cuota mensual:</div>
+          </div>
+            <div class="slds-col slds-size_1-of-1 slds-large-size_4-of-12">
+            <div class="custom-letter">$1.000.100</div>
+          </div>
+        </div>
+	
+		<div class="slds-grid slds-wrap">
+          <div class="slds-col slds-size_1-of-1 slds-large-size_1-of-12">
+            <span></span>
+          </div>
+          <div class="slds-col slds-size_1-of-1 slds-large-size_5-of-12">
+              <div class="custom-box-black" >Observaciones </div>
+          </div>
+            <div class="slds-col slds-size_1-of-1 slds-large-size_5-of-12">
+            	<div class="custom-box-black">Datos de facturación</div>
+          	</div> 
+              <div class="slds-col slds-size_1-of-1 slds-large-size_1-of-12">
+            	<div ></div>
+          	</div> 
+        </div>
+
+		<div class="slds-grid slds-wrap">
+          <div class="slds-col slds-size_1-of-1 slds-large-size_1-of-12">
+            <span></span>
+          </div>
+          <div class="slds-col slds-size_1-of-1 slds-large-size_5-of-12">
+              <div class="custom-square-gray" >Observaciones </div>
+          </div>
+          <div class="slds-col slds-size_1-of-1 slds-large-size_2-of-12">
+            	<div class="custom-black-letter">Nombre:</div>
+              	<div class="custom-black-letter">C.C O NIT:</div>
+              	<div class="custom-black-letter">Dirección:</div>
+              	<div class="custom-black-letter">Email:</div>
+          </div> 
+          <div class="slds-col slds-size_1-of-1 slds-large-size_3-of-12">
+            	<div class="custom-letter">Nombre:</div>
+              	<div class="custom-letter">C.C O NIT:</div>
+              	<div class="custom-letter">Dirección:</div>
+              	<div class="custom-letter">Email:</div>
+          </div> 
+        </div>        
+   		<div class="slds-grid slds-wrap">
+          <div class="slds-col slds-size_1-of-1 slds-large-size_1-of-12">
+            <span></span>
+          </div>
+          <div class="slds-col slds-size_1-of-1 slds-large-size_10-of-12">
+              <div class="custom-letter" >Cotización valida hasta el último día del mesen que fue realizada . Nota: Los precios, descuentos, especificaciones y condiciones, estan sujetos a cambios sin previo aviso.</div>
+          </div>
+            <div class="slds-col slds-size_1-of-1 slds-large-size_1-of-12">
+              <div class="custom-letter" > </div>
+          </div>
+        </div>
+    </lightning:card>
+
+
+    
+</aura:component>
